@@ -10,5 +10,7 @@
   "containerEnv": {
     "TZ": "${localEnv:TZ}"
   },
-  "features": {}
+  "features": {
+    "ghcr.io/mkvlrn/arch-devcontainer/node:latest": {}
+  }
 }
