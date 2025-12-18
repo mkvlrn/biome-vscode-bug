@@ -1,6 +1,6 @@
 {
   "name": "${localWorkspaceFolderBasename}-devpod",
-  "image": "mkvlrn/arch-devcontainer:latest",
+  "image": "ghcr.io/mkvlrn/arch-devcontainer:latest",
   // "remoteUser": "dev",
   "workspaceFolder": "/code/${localWorkspaceFolderBasename}",
   "workspaceMount": "source=${localWorkspaceFolder},target=/code/${localWorkspaceFolderBasename},type=bind",
@@ -10,7 +10,5 @@
   "containerEnv": {
     "TZ": "${localEnv:TZ}"
   },
-  "features": {
-    "ghcr.io/mkvlrn/arch-devcontainer/node:latest": {}
-  }
+  "features": {}
 }
